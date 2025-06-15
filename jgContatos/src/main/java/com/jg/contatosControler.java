@@ -3,6 +3,7 @@ package com.jg;
 import java.util.ArrayList;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class contatosControler {
@@ -18,6 +19,15 @@ public class contatosControler {
 	@GetMapping("/")
 	public String index() {
 		return "index";
+	}
+	
+	@GetMapping("/contatos")
+	public ModelAndView listar() {
+		ModelAndView modelAndView = new ModelAndView("listar");
+		
+		modelAndView.addObject("contatos", LISTA_CONTATOS);
+		
+		return modelAndView;
 	}
 
 }
