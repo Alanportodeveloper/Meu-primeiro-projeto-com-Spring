@@ -32,18 +32,17 @@ header nav ul li a {
   color: #888;
 }
 
-
-header nav ul li a:hover {
-  color: #fff;
-  background-color: #777;
+nav a:hover {
+	color:#fff;
+	background-color: #777;
 }
 
 header nav ul li:first-child a {
-  font-size: 1.5em;
-  color: #90aebd;
+  font-size: 1.4em;
+  color: #80aebd;
 }
 
-header nav u li:first-child a:houver {
+header nav ul li:first-child a:houver {
   color: lightblue;
 }
 
@@ -105,4 +104,9 @@ main section table tbody tr td form button {
   padding: 10px 15px;
   background-color: #bd8088;
   color: #fff;
+}
+
+main section table tbody tr td form button:hover {
+	background-color: #e6adb7;
+	cursor: pointer;
 }

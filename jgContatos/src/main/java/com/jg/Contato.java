@@ -6,8 +6,6 @@ public class Contato {
 	private String nome;
 	private String telefone;
 	
-	
-	
 	public Contato() {}
 
 	public Contato(String id, String nome, String telefone) {
@@ -19,7 +17,6 @@ public class Contato {
 	public boolean isNovo () {
 		return id == null;
 	}
-	
 	
 	public String getId() {
 		return id;
