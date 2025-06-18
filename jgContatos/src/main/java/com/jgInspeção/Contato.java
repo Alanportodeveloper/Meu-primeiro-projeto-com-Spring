@@ -1,4 +1,4 @@
-package com.jg;
+package com.jgInspeção;
 
 public class Contato {
 	

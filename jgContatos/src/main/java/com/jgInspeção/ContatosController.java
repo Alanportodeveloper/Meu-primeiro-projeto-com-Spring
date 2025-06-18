@@ -1,4 +1,4 @@
-package com.jg;
+package com.jgInspeção;
 
 import java.util.ArrayList;
 import java.util.UUID;

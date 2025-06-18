@@ -1,13 +1,13 @@
-package com.jg;
+package com.jgInspeção;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JgContatosApplication {
+public class JgInspcaoContatosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JgContatosApplication.class, args);
+		SpringApplication.run(JgInspcaoContatosApplication.class, args);
 	}
 
 }
